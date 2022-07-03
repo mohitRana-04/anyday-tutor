@@ -22,5 +22,21 @@
     "lang": "hindi",
     "Teacher": "x, y, z",
     "price": 700
+  },
+  {
+    "id": 4,
+    "img": "https://picsum.photos/200/302",
+    "name": "Course on Biology for Class X/ NEET",
+    "lang": "english",
+    "Teacher": "x, y, z",
+    "price": 1000
+  },
+  {
+    "id": 5,
+    "img": "https://picsum.photos/200/302",
+    "name": "Course on Biology for Class X/ NEET",
+    "lang": "hindi",
+    "Teacher": "x, y, z",
+    "price": 1100
   }
 ]
