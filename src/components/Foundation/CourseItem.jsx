@@ -5,7 +5,7 @@ function CourseItem() {
   const [fcourses, setFcourse] = useState([]);
   const getCourses = async () => {
     const response = await fetch(
-      "https://raw.githubusercontent.com/mohitRana-04/anyday-tutor/main/FoundationApi.json"
+      "https://raw.githubusercontent.com/mohitRana-04/anyday-tutor/api/trying.json"
     );
     // console.log(response);
 

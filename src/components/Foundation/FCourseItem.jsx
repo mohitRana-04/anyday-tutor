@@ -11,7 +11,7 @@ function FCourseItem(props) {
             id={curElem.id}
             img={curElem.img}
             name={curElem.name}
-            teacher={curElem.teacher}
+            Teacher={curElem.Teacher}
             lang={curElem.lang}
             price={curElem.price}
           />
