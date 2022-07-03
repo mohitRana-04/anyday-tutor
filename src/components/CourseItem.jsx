@@ -1,21 +1,27 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
+import FCourseItem from "./FCourseItem";
 
 function CourseItem() {
+  const [fcourses, setFcourse] = useState([]);
   const getCourses = async () => {
     const response = await fetch(
-      "https://raw.githubusercontent.com/Rachit-veronica/api/master/data_home.json"
+      "https://raw.githubusercontent.com/mohitRana-04/anyday-tutor/main/FoundationApi.json"
     );
     // console.log(response);
 
-    const data = await response.json();
-    console.log(data);
+    setFcourse(await response.json());
   };
 
   //   dependencies array for just one time runnign this useEffect hook
   useEffect(() => {
     getCourses();
   }, []);
-  return <div>CourseItem</div>;
+
+  return (
+    <div>
+      <FCourseItem fcourses={fcourses} />
+    </div>
+  );
 }
 
 export default CourseItem;
