@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "img": "https://picsum.photos/200/300",
+    "name": "Toofan Batch on JEE for Class X",
+    "lang": "hinglish",
+    "Teacher": "x, y, z",
+    "price": 900
+  },
+  {
+    "id": 2,
+    "img": "https://picsum.photos/200/301",
+    "name": "Course on Physics for Class 9 - II",
+    "lang": "english",
+    "Teacher": "x, y, z",
+    "price": 800
+  },
+  {
+    "id": 3,
+    "img": "https://picsum.photos/200/302",
+    "name": "Course on Biology for Class X/ NEET",
+    "lang": "hindi",
+    "Teacher": "x, y, z",
+    "price": 700
+  }
+]
