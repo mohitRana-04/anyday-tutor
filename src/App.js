@@ -1,3 +1,4 @@
+import CourseItem from "./components/CourseItem";
 import Slider from "./components/Slider";
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <>
       <h1>Hello</h1>
       <Slider />
+      <CourseItem />
     </>
   );
 }
